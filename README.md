@@ -84,6 +84,20 @@ $env:GEMINI_MODEL = "gemini-2.5-flash"
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r backend\requirements.txt
+```
+
+To run the backend, you'll need a Gemini API key. You can create a `.env` file in the `backend` folder:
+```powershell
+Copy-Item backend\.env.example backend\.env
+# Open backend\.env and add your API key
+```
+Or set it directly in your terminal before running:
+```powershell
+$env:GEMINI_API_KEY = "your_api_key_here"
+```
+
+Then start the server:
+```powershell
 .\.venv\Scripts\python.exe -m uvicorn backend.main:app --reload
 ```
 
