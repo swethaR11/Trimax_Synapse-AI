@@ -1,0 +1,2 @@
+"""Synapse AI backend package."""
+
