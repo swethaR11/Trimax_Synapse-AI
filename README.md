@@ -2,6 +2,9 @@
 
 > Translate the abstract. Personalize the path.
 
+**⚠️ IMPORTANT: API Key Setup**
+Before running the application, make sure to add your Gemini API key. Open the `backend/.env.example` file, replace `"your_api_key_here"` with your actual API key, and save it as `backend/.env`.
+
 Synapse AI is an adaptive learning app for Arc Night 2026. Give it a topic, pasted notes, or a PDF; add an interest you already understand; and it builds a rigorous academic explanation beside a one-to-one analogy in your own mental language.
 
 ## What Is Built
